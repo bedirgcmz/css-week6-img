@@ -4,12 +4,15 @@
   padding: 0;
   box-sizing: border-box;
 }
-
-#main-container {
+#main-all-container {
   background-color: #3ca6ecbd;
-  width: 90%;
+  width: 1130px;
   height: 90vh;
   margin: auto;
+  position: relative;
+}
+
+#main-top-content {
   display: flex;
 }
 /*Top first and second img css */
@@ -22,7 +25,7 @@
 
 .first-img {
   background-color: white;
-  margin: 5px 17px 5px 5px;
+  margin: 5px 17px 5px 15px;
   width: 50%;
   border-radius: 3px;
 }
@@ -55,7 +58,6 @@
   justify-content: center;
   margin: 5px;
   width: 50%;
-  position: relative;
 }
 
 .first-content-in-second-img {
@@ -82,8 +84,101 @@
 
 .content-right-top-img {
   background-color: white;
-  width: 80%;
+  width: 82%;
   height: 16px;
   margin: 5px auto 18px auto;
   border-radius: 3px;
+}
+
+/* Telephone img css */
+#telephone-img {
+  background-color: white;
+  width: 165px;
+  height: 320px;
+  position: absolute;
+  top: 185px;
+  left: 15px;
+  border-radius: 15px;
+}
+
+hr {
+  margin: 15px auto 12px auto;
+  background: #3ca6ecbd;
+  width: 40%;
+}
+
+.in-blue-area {
+  width: 90%;
+  height: 240px;
+  background: #3ca6ecbd;
+  margin: 0px auto 0px auto;
+  border-radius: 15px;
+}
+
+.circle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid #3ca6ecbd;
+  margin: 10px auto;
+}
+
+/* Middle picture css */
+#middle-picture {
+  width: 550px;
+  height: 320px;
+  background-color: white;
+  position: absolute;
+  top: 185px;
+  left: 200px;
+  border-radius: 3px;
+}
+
+/* Right picture css */
+#right-picture {
+  width: 340px;
+  height: 260px;
+  position: absolute;
+  top: 245px;
+  left: 770px;
+  border-radius: 3px;
+  background: white;
+}
+
+/* Button css */
+#left-button {
+  width: 60px;
+  height: 30px;
+  border-radius: 20px;
+  background-color: white;
+  position: absolute;
+  left: 767px;
+  top: 180px;
+}
+
+#left-button .in-circle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: white;
+  border: 1px solid #3ca6ecbd;
+}
+
+#right-button {
+  width: 60px;
+  height: 30px;
+  border-radius: 20px;
+  background-color: white;
+  position: absolute;
+  left: 841px;
+  top: 180px;
+}
+
+#right-button .in-circle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #3ca6ecbd;
+  border: 1px solid white;
+  float: right;
 }
