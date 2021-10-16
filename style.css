@@ -1,0 +1,89 @@
+/* General css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#main-container {
+  background-color: #3ca6ecbd;
+  width: 90%;
+  height: 90vh;
+  margin: auto;
+  display: flex;
+}
+/*Top first and second img css */
+#first-second-img {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  height: 160px;
+}
+
+.first-img {
+  background-color: white;
+  margin: 5px 17px 5px 5px;
+  width: 50%;
+  border-radius: 3px;
+}
+
+.in-img {
+  background-color: #3ca6ecbd;
+  margin: 0px auto 20px auto;
+  border-radius: 3px;
+}
+
+.first-content-in-first-img {
+  height: 22px;
+  width: 80%;
+  margin-top: 20px;
+}
+.second-content-in-first-img {
+  height: 17px;
+  width: 80%;
+}
+
+.third-content-in-first-img {
+  height: 30px;
+  width: 20%;
+}
+
+.second-img {
+  display: flex;
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+  margin: 5px;
+  width: 50%;
+  position: relative;
+}
+
+.first-content-in-second-img {
+  background-color: #3ca6ecbd;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.second-content-in-second-img {
+  background-color: white;
+  position: absolute;
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  width: 30px;
+  height: 24px;
+  transform: rotate(90deg);
+}
+
+/* top right img css */
+#right-top-img {
+  width: 20%;
+  height: 225px;
+}
+
+.content-right-top-img {
+  background-color: white;
+  width: 80%;
+  height: 16px;
+  margin: 5px auto 18px auto;
+  border-radius: 3px;
+}
