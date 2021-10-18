@@ -1,0 +1,160 @@
+/* Telephone img css */
+#telephone-img {
+  background-color: white;
+  width: 165px;
+  height: 320px;
+  position: absolute;
+  top: 185px;
+  left: 15px;
+  border-radius: 15px;
+}
+
+hr {
+  margin: 15px auto 12px auto;
+  background: #6ebdf1;
+  width: 40%;
+}
+
+.in-blue-area {
+  width: 90%;
+  height: 240px;
+  background: #6ebdf1;
+  margin: 0px auto 0px auto;
+  border-radius: 15px;
+}
+
+#telephone-img .circle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 2px solid #6ebdf1;
+  margin: 10px auto;
+}
+
+/* Middle picture css */
+#middle-picture {
+  width: 550px;
+  height: 320px;
+  background-color: white;
+  position: absolute;
+  top: 185px;
+  left: 200px;
+  border-radius: 3px;
+}
+
+.middle-pic-in-circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #6ebdf1;
+  position: absolute;
+  top: 105px;
+  left: 180px;
+}
+
+.middle-pic-in-first-trigon {
+  background-color: #6ebdf1;
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  width: 100px;
+  height: 57px;
+  position: absolute;
+  top: 175px;
+  left: 180px;
+}
+
+.middle-pic-in-Second-trigon {
+  background-color: #6ebdf1;
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  width: 140px;
+  height: 100px;
+  position: absolute;
+  top: 132px;
+  left: 250px;
+}
+
+.three-point {
+  position: absolute;
+  top: 287px;
+  left: 258px;
+  font-size: 25px;
+  color: #6ebdf1;
+}
+
+/* Right picture css */
+#right-picture {
+  width: 340px;
+  height: 260px;
+  position: absolute;
+  top: 245px;
+  left: 770px;
+  border-radius: 3px;
+  background: white;
+}
+
+.right-pic-in-circle {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: #6ebdf1;
+  position: absolute;
+  top: 96px;
+  left: 86px;
+}
+
+.right-pic-in-first-trigon {
+  background-color: #6ebdf1;
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  width: 85px;
+  height: 50px;
+  position: absolute;
+  top: 146px;
+  left: 93px;
+}
+
+.right-pic-in-Second-trigon {
+  background-color: #6ebdf1;
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  width: 116px;
+  height: 82px;
+  position: absolute;
+  top: 114px;
+  left: 153px;
+}
+
+/* Button css */
+#left-button {
+  width: 60px;
+  height: 30px;
+  border-radius: 20px;
+  background-color: white;
+  position: absolute;
+  left: 767px;
+  top: 180px;
+}
+
+#left-button .in-circle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: white;
+  border: 1px solid #6ebdf1;
+}
+
+#right-button {
+  width: 60px;
+  height: 30px;
+  border-radius: 20px;
+  background-color: white;
+  position: absolute;
+  left: 841px;
+  top: 180px;
+}
+
+#right-button .in-circle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #6ebdf1;
+  border: 1px solid white;
+  float: right;
+}

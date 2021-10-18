@@ -1,0 +1,13 @@
+/* top right img css */
+#right-top-img {
+  width: 20%;
+  height: 225px;
+}
+
+.content-right-top-img {
+  background-color: white;
+  width: 82%;
+  height: 16px;
+  margin: 5px auto 18px auto;
+  border-radius: 3px;
+}

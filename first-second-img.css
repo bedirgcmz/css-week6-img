@@ -1,0 +1,60 @@
+/*Top first and second img css */
+#first-second-img {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  height: 160px;
+}
+
+.first-img {
+  background-color: white;
+  margin: 5px 17px 5px 15px;
+  width: 50%;
+  border-radius: 3px;
+}
+
+.in-img {
+  background-color: #6ebdf1;
+  margin: 0px auto 20px auto;
+  border-radius: 3px;
+}
+
+.first-content-in-first-img {
+  height: 22px;
+  width: 80%;
+  margin-top: 20px;
+}
+.second-content-in-first-img {
+  height: 17px;
+  width: 80%;
+}
+
+.third-content-in-first-img {
+  height: 30px;
+  width: 20%;
+}
+
+.second-img {
+  display: flex;
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+  margin: 5px;
+  width: 50%;
+}
+
+.first-content-in-second-img {
+  background-color: #6ebdf1;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.second-content-in-second-img {
+  background-color: white;
+  position: absolute;
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  width: 30px;
+  height: 24px;
+  transform: rotate(90deg);
+}
